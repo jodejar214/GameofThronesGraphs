@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("gotbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+#header{
+  display:block; 
+  margin: 0 auto;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: Georgia, serif;
+  font-size: 11px;
+}
+
+.axis labels {
+  font-family: Georgia, serif;
+  font-size: 11px;
+}
+
+svg{
+  border: solid black 1px; 
+  display:block; 
+  margin: 0 auto;
+  background-color: #EEE8AA;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+span{
+  color: #00FFFF;
+}
+
+#options{
+  border: solid black 1px; 
+  display: inline-block; 
+  margin: auto;
+  background-color: #EEE8AA;
+  padding: 20px;
+  text-align: center;
+}
+
+#options input{
+  margin: 3px;
+  padding: 3px;
+}
+
+#options, #char_graph{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#char_graph{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#epRating{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 120px;
+}
+
+#desc {
+  border: solid black 1px; 
+  display:inline-block; 
+  margin: 0 auto;
+  background-color: #EEE8AA;
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+}
